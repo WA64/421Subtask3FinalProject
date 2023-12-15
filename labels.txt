@@ -1,0 +1,2 @@
+0 IsNotAi
+1 IsAi
