@@ -13,3 +13,5 @@ To run on your own video:
   At line 6 in the 'run.py' script, you must specify the directory of your video, then run "python run.py"
   
   ![image](https://github.com/WA64/421Subtask3FinalProject/assets/42586390/d2b88896-2620-4c9d-9188-96fe93a79d64)
+
+IMPORTANT: The 'outputfolder' directory must be empty when you run the script. After every run, it becomes populated and needs to be emptied out before running again.
