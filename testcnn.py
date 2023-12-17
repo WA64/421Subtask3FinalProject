@@ -3,11 +3,10 @@ import os
 import numpy as np
 
 # Specify the path to the video file
-video_file_path = os.listdir('baseline')[0] #CHANGE THIS PATH IF YOU WANT TO USE A DIFERENT VIDEO
+video_file_path = 'baseline/isAi_Tiger.mp4' #CHANGE THIS PATH IF YOU WANT TO USE A DIFERENT VIDEO
 
 # Specify the output directory for images
 output_directory = "outputfolder"
-
 
 def split(video_path, output_directory):
     # Open the video file
@@ -113,3 +112,4 @@ if __name__ == "__main__":
 
     # Call the function to split the video into images
     
+
