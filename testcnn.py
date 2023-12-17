@@ -3,10 +3,11 @@ import os
 import numpy as np
 
 # Specify the path to the video file
-video_file_path = "baseline/IsAi_Tiger.mp4"
+video_file_path = os.listdir('baseline')[0] #CHANGE THIS PATH IF YOU WANT TO USE A DIFERENT VIDEO
 
 # Specify the output directory for images
 output_directory = "outputfolder"
+
 
 def split(video_path, output_directory):
     # Open the video file
