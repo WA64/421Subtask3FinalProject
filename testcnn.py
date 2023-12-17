@@ -3,7 +3,7 @@ import os
 import numpy as np
 
 # Specify the path to the video file
-video_file_path = "zebrareal.mp4"
+video_file_path = "baseline/IsAi_Tiger.mp4"
 
 # Specify the output directory for images
 output_directory = "outputfolder"
